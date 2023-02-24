@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-cont container">
+      <a class="h1">Bri<span>lex</span></a>
+      <button class="modal-open" data-modal-open>
+        <svg class="burger" width="34px" height="19px">
+          <use href="./images/icon.svg#icon-burger"><a href=""></a></use>
+        </svg>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="link nav-item-a" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="link nav-item-a" href="">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="link nav-item-a" href="">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="link nav-item-a" href="">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="link nav-item-a" href="">Contacts</a>
+          </li>
+        </ul>
+        <a class="link nav-btn" href="">Let’s Talk</a>
+      </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+<!-- 1 section -->
+      <section class="hero">
+        <div class="hero-cont">
+          <div>
+            <picture>
+              <!-- img320  -->
+                        <source
+                          srcset="
+                          ./images/img320/1sec_1x-mob1.webp 1x,
+                          ./images/img320/1sec_2x-mob1.webp 2x,
+                          ./images/img320/1sec_3x-mob1.webp 3x
+                          "
+                          type="image/webp"
+                          media="(max-width: 320px)"
+                        
+                        />
+                        <source
+                          srcset="
+                          ./images/img320/1sec_1x-mob1.jpg 1x,
+                          ./images/img320/1sec_2x-mob1.jpg 2x,
+                          ./images/img320/1sec_3x-mob1.jpg 3x
+                          "
+                          media="(max-width: 574px)"
+                        />
+                        
+              
+              <!-- img575  -->
+                        <source
+                          srcset="
+                          ./images/img575/1sec_1x-mob.webp 1x,
+                          ./images/img575/1sec_2x-mob.webp 2x,
+                          ./images/img575/1sec_3x-mob.webp 3x
+                          "
+                          type="image/webp"
+                          media="(min-width: 575px) and (max-width:767px)"
+                        />
+                        <source
+                          srcset="
+                          ./images/img575/1sec_1x-mob.jpg 1x,
+                          ./images/img575/1sec_2x-mob.jpg 2x,
+                          ./images/img575/1sec_3x-mob.jpg 3x
+                          "
+                          media="(min-width: 575px) and (max-width:767px)"
+                        />
+                        
+              
+              <!-- img768 -->
+                        <source
+                          srcset="
+                          ./images/img768/1sec_1x-tablet1.webp 1x,
+                          ./images/img768/1sec_2x-tablet1.webp 2x,
+                          ./images/img768/1sec_3x-tablet1.webp 3x
+                          "
+                          type="image/webp"
+                          media="(min-width: 768px) and (max-width:991px)"
+                        />
+                        <source
+                          srcset="
+                          ./images/img768/1sec_1x-tablet1.jpg 1x,
+                          ./images/img768/1sec_2x-tablet1.jpg 2x,
+                          ./images/img768/1sec_3x-tablet1.jpg 3x
+                          "
+                          media="(min-width: 768px) and (max-width:991px)"
+                        />
+                        
+                      
+              <!-- img992  -->
+                        <source
+                          srcset="
+                          ./images/img992/1sec_1x-tablet.webp 1x,
+                          ./images/img992/1sec_2x-tablet.webp 2x,
+                          ./images/img992/1sec_3x-tablet.webp 3x
+                          "
+                          type="image/webp"
+                          media="(min-width: 992px) and (max-width:1599px)"
+                        />
+                        <source
+                          srcset="
+                          ./images/img992/1sec_1x-tablet.jpg 1x,
+                          ./images/img992/1sec_2x-tablet.jpg 2x,
+                          ./images/img992/1sec_3x-tablet.jpg 3x
+                          "
+                          media="(min-width: 992px) and (max-width:1599px)"
+                        />
+                        
+              
+              <!-- img1600  -->
+                        <source
+                        srcset="
+                        ./images/img1600/1sec_1x-desktop.webp 1x,
+                        ./images/img1600/1sec_2x-desktop.webp 2x,
+                        ./images/img1600/1sec_3x-desktop.webp 3x
+                        "
+                        type="image/webp"
+                        media="(min-width: 1600px)"
+                      />
+                      <source
+                        srcset="
+                        ./images/img1600/1sec_1x-desktop.jpg 1x,
+                        ./images/img1600/1sec_2x-desktop.jpg 2x,
+                        ./images/img1600/1sec_3x-desktop.jpg 3x
+                        "
+                        media="(min-width: 1600px)"
+                      />
+                      <img class="hero-img" src="../images/img320/1sec_1x-mob1.jpg" alt="">
+
+          </div>             
+          <div class="hero-div">
+            <h1 class="hero-h1">
+              Learn Any
+              Foreign Language
+            </h1>
+            <p class="hero-p">With our teachers who write a program for 
+              each student, you will be able to make your
+              first sketch after the first lesson.</p>
+            <a class="link hero-btn wow animate__animated animate__pulse" href="">Get started</a>
+          </div>
+
+        </div> 
+      </section>
+<!-- SKILLS -->
+      <section class="skills ">
+        <div class="skills-cont">
+          <h2 class="skills-h2">Skills</h2>
+          <ul class="skills-ul grid">
+  
+            <li class="skills-ul-item skills-li-cont grid_item_1">
+  
+              <svg class="skills-svg" width="204px" height="204px">
+                <use href="./images/SVG/skills/skills1.svg#skills1"><a href=""></a></use>
+              </svg>
+              <h4 class="skills-ul-item-h4">Speaking</h4>
+              <p class="skills-ul-item-p skills-ul-item-p1">Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for a limited time only</p>
+              <p class="skills-ul-item-p "> Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
+              <a class="link skills-ul-item-a" href="">Learn more</a>
+              
+            </li>
+  
+            <li class="skills-ul-item skills-li-cont grid_item_2">
+            
+              <svg class="skills-svg" width="204px" height="204px">
+                <use href="./images/SVG/skills/skills2.svg#skills2"><a href=""></a></use>
+              </svg>
+              <h4 class="skills-ul-item-h4">Writing</h4>
+              <p class="skills-ul-item-p">One of the most important and extensive 
+              areas of natural science, the science that 
+              studies substances, also their composition </p>
+              <a class="link skills-ul-item-a" href="">Learn more</a>
+            
+            </li>
+          
+            <li class="skills-ul-item skills-li-cont grid_item_3">
+              
+              <svg class="skills-svg" width="204px" height="204px">
+                <use href="./images/SVG/skills/skills3.svg#skills3"><a href=""></a></use>
+              </svg>
+              <h4 class="skills-ul-item-h4">Reading</h4>
+              <p class="skills-ul-item-p">Perception and response actions of the user
+              resulting from the use and/or upcoming use 
+              of the product, system or service</p>
+              <a class="link skills-ul-item-a" href="">Learn more</a>
+            
+            </li>
+  
+            <li class="skills-ul-item skills-li-cont grid_item_4">
+              
+              <svg class="skills-svg" width="204px" height="204px">
+                <use href="./images/SVG/skills/skills4.svg#skills4"><a href=""></a></use>
+              </svg>
+              <div class="text-4">
+                <h4 class="skills-ul-item-h4">Listening</h4>
+                <p class="skills-ul-item-p">Here you can find activities to practise
+                your listening skills. Listening will help you to improve your understanding </p>
+              <a class="link skills-ul-item-a" href="">Learn more</a>
+            </div >
+            </li>
+
+          </ul>
+        </div >
+      </section>
+
+  <!-- ABOUT US -->
+      <section class="about">
+        <div class="about-cont">
+          <h2 class="about-h2">About Us</h2>
+          <svg class="about-svg" width="283px" height="283px">
+            <use href="./images/SVG/about.svg#about"><a href=""></a></use>
+          </svg>
+          <div class="about-div">
+            <p class="about-p">The model offers a framework for discussing 
+              problems related to the user's experience, as 
+              well as possible ways and means of solving 
+              them. Application development begins at
+              the top level (strategy), where the future
+              software product is described quite
+              abstractly from the point of view of the
+              expectations of both users and the customer.
+              
+              </p>
+            <ul class="about-ul">
+              <li class="about-ul-item"><h4>800</h4><p>Pupils</p></li>
+              <li class="about-ul-item"><h4>18</h4><p>Teachers</p></li>
+              <li class="about-ul-item"><h4>6</h4><p>Foreign languages</p></li>
+            </ul>
+          </div >
+        </div>
+      </section>
+      
+  <!-- PRICING -->
+      <section class="pricing">
+        <div class="pricing-cont">
+          <h2 class="pricing-h2">Pricing</h2>
+          <ul class="pricing-ul">
+
+            <li class="pricing-ul-item pricing-li">
+              <svg class="pricing-svg" width="283px" height="283px">
+                <use href="./images/SVG/pricing/pricing_1.svg#pricing_1"><a href=""></a></use>
+              </svg>
+              <h4 class="pricing-ul-item-h4">Self-study online course</h4>
+              <p class="pricing-ul-item-p">Start learning English online in live classes
+                with qualified EC teachers and students 
+                from all over the world.</p>
+              <a class="pricing-ul-item-a link" href=""><h4> £5.99</h4><p> per month</p></a>
+            </li>
+
+            <li class="pricing-ul-item pricing-li">
+              <svg class="pricing-svg" width="283px" height="283px">
+                <use href="./images/SVG/pricing/pricing_2.svg#pricing_2"><a href=""></a></use>
+              </svg>
+              <h4 class="pricing-ul-item-h4">Live online classes</h4>
+              <p class="pricing-ul-item-p p">Interactive group classes with expert 
+                teachers. Free 7-day trial</p>
+              <a class="pricing-ul-item-a link" href=""><h4>  £12.99  </h4><p> per month</p></a>
+            </li>
+
+            <li class="pricing-ul-item pricing-li">
+              <svg class="pricing-svg" width="283px" height="283px">
+                <use href="./images/SVG/pricing/pricing_3.svg#pricing_3"><a href=""></a></use>
+              </svg>
+              <h4 class="pricing-ul-item-h4">Personal Tuition</h4>
+              <p class="pricing-ul-item-p p1">Online one-to-one English tutoring – enjoy 
+                our first session for only $1</p>
+              <a class="pricing-ul-item-a a link" href=""><h4>  £20.99  </h4><p> per month</p></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+  <!-- CONTACT -->
+      <section class="contact">
+        <div class="contact-cont">
+
+          <svg class="contact-svg">
+            <use href="./images/SVG/contact.svg#contact"><a href=""></a></use>
+          </svg>
+          <div class="contact-text">
+            <h2 class="contact-h2">Contact Us</h2>
+            <p class="contact-p">Discover your current English level by 
+              taking our free online English test.
+              Sign up to our newsletter for learning tips
+              and free resource
+            </p>
+            <form class="form">
+              <div class="input">
+                <input class="modal-form-input" placeholder="Enter Your E-mail" type="email">
+                <div class="input-btn"><button class="btn-form-modal" type="submit">Subscribe</button></div >
+              </div >
+            </form>
+          </div>
+    </main>
+            </div>
+      </section>
+      <footer>
+        <section class="footer">
+          <div class="footer-cont">
+            <a class="footer-logo">Bri<span>lex</span></a>
+            <nav class="footer-nav">
+              <ul class="footer-nav-menu">
+                <li class="footer-nav-item footer-nav-item_af"><a  class="footer-nav-item-a" href=""></a>Terms and Conditions</li>
+                <li class="footer-nav-item footer-nav-item_aft"><a  class="footer-nav-item-a" href=""></a>Privacy Policy</li>
+                <li class="footer-nav-item"><a  class="footer-nav-item-a" href=""></a>Cookie Policy</li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+      </footer>
+      <div class="back-modal is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-close" data-modal-close>
+            <svg class="cross" width="34px" height="34px">
+              <use href="./images/icon.svg#icon-cross"></use>
+            </svg>
+          </button>
+    
+          <a class="h1-modal">Bri<span>lex</span></a>
+          <nav class="nav-modal">
+            <ul class="nav-menu-modal">
+              <li class="nav-item-modal">
+                <a class="link nav-item-modal-a" href="">Home</a>
+              </li>
+              <li class="nav-item-modal">
+                <a class="link nav-item-modal-a" href="">Skills</a>
+              </li>
+              <li class="nav-item-modal">
+                <a class="link nav-item-modal-a" href="">About Us</a>
+              </li>
+              <li class="nav-item-modal">
+                <a class="link nav-item-modal-a" href="">Pricing</a>
+              </li>
+              <li class="nav-item-modal cont">
+                <a class="link nav-item-modal-a" href="">Contacts</a>
+              </li>
+            </ul>
+            <a class="link nav-btn-modal" href="">Let’s Talk</a>
+          </nav>
+        </div>
+      </div>
+
+    <script src="./js.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  </body>
+</html>
