@@ -15,6 +15,9 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+body.lock{
+    overflow: hidden;
+}
 
 /* reset */
 
@@ -115,6 +118,7 @@ border-radius: 10px;
     
 }
 .modal{
+    overflow: auto;
     z-index: 50;
     position: relative;
     background-color: #ffffff;
@@ -122,6 +126,7 @@ border-radius: 10px;
     height: 100%;
     padding-right: 7px;
     padding-left: 15px;
+    padding-bottom: 100px;
 }
 .modal-close{
     position: absolute;
@@ -154,7 +159,6 @@ border-radius: 10px;
     margin-bottom: 0;
 }
 .nav-menu-modal{
-    overflow: auto;
     margin: 48px 0 86px 14px;
 }
 .nav-btn-modal{
@@ -184,7 +188,6 @@ border-radius: 10px;
     text-align: center;
     color: #8F95A5;
     margin: 20px 15px 51px 15px;
-    width: 100%;
 }
 .hero-btn {
     font-size: 16px;
@@ -809,9 +812,6 @@ border-radius: 10px;
 
 }
 @media screen and (min-width: 768px){
-body.lock{
-        overflow: hidden;
-    }
     .header-cont{
         margin: 39px  39px 0 39px;
     }
@@ -822,7 +822,7 @@ body.lock{
     }
     .nav-menu-modal{
         margin: 35px 0 62px 39px;
-        overflow: auto;
+
     }
     .nav-btn-modal{
         margin-left: 39px;
