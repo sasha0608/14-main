@@ -849,6 +849,7 @@ border-radius: 10px;
     }
     .footer-cont::before{
         width: 510px;
+        left: 33px;
     }
 
 
@@ -1210,7 +1211,7 @@ border-radius: 10px;
     }
     .footer-cont::before{
         width: 690px;
-        left: 0;
+        left: 39px;
     }
     
     
@@ -1488,6 +1489,7 @@ border-radius: 10px;
     }
     .footer-cont::before{
         width: 929px;
+        left: 32px;
     }
 
 }
@@ -1804,6 +1806,7 @@ border-radius: 10px;
     }
     .footer-cont::before{
         width:1338px ;
+        left: 131px;
     }
 
 }
