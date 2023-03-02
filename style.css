@@ -300,6 +300,9 @@ border-radius: 10px;
     background: #263238;
     border-radius: 5px;
 }
+.grid_item_4{
+    margin-bottom: 0;
+}
 
 /* about */
 .about {
@@ -307,9 +310,7 @@ border-radius: 10px;
 .about-cont {
     max-width: 320px ;
     margin: 0 auto;
-    padding: 0 15px;
-    margin-top: 30px ;
-    margin-bottom: 84px;
+    padding: 30px 15px 84px;
 }
 .about-h2 {
     font-weight: 600;
@@ -419,13 +420,12 @@ border-radius: 10px;
     max-width: 320px ;
     margin: 0 auto;
     position: relative;
-    padding: 0 15px;
-    margin-top: 150px ;
-    margin-bottom: 200px  ;
+    padding: 100px 15px 55px;
+
 }
 .contact-h2 {
     position: absolute;
-    top: -100px;
+    top: 100px;
     left:80px ;
     text-align: center;
     font-weight: 600;
@@ -488,8 +488,7 @@ border-radius: 10px;
 .footer-cont{
     max-width: 320px;
     margin: 0 auto;
-    margin-top: 55px ;
-    margin-bottom: 48px;
+    padding: 26px 11px 48px 15px; 
     position: relative;
     justify-content: space-between;
 }
@@ -497,7 +496,7 @@ border-radius: 10px;
     content: '';
     position: absolute;
     left: 15px;
-    top:-26px ;
+    top:0 ;
     width: 290px ;
     height: 1px;
     background: #C4C4C4;
@@ -527,6 +526,7 @@ border-radius: 10px;
 }
 .footer-nav-item_af::after{
     content: '';
+    border-radius: 50%;
     width: 3px;
     height: 3px;
     background-color: #8F95A5;
@@ -648,7 +648,7 @@ border-radius: 10px;
         margin: 0;
     }
     .skills-ul-item-p {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 18px;
         width: 200px;
         margin-bottom: 0;
@@ -693,9 +693,7 @@ border-radius: 10px;
     .about-cont {
         max-width: 575px;
         margin: 0 auto;
-        padding: 0 30px;
-        margin-top: 84px ;
-        margin-bottom: 30px;
+        padding: 84px 30px 30px;
     }
     .about-h2 {
         font-size: 30px;
@@ -736,7 +734,7 @@ border-radius: 10px;
 
     /* PRICING */
     .pricing-cont{
-        margin: 130px 90px 0 90px;
+        padding: 130px 90px 0 90px;
     }
     .pricing-ul-item{
         margin-top: 70px;
@@ -780,13 +778,11 @@ border-radius: 10px;
         max-width: 575px;
         margin: 0 auto;
         position: relative;
-        margin-top: 200px;
-        padding: 0 30px ;
-        padding-bottom: 100px;
+        padding: 200px 30px 100px;
     }
     .contact-h2 {
         position: absolute;
-        top: -100px;
+        top: 200px;
     left: 180px;
     font-size: 30px;
     line-height: 80px;
@@ -815,6 +811,7 @@ border-radius: 10px;
     width: 520px;
     height: 60px;
     padding: 20px 374px 20px 25px;
+    margin: 0;
     
     border-radius: 10px;
 
@@ -842,7 +839,7 @@ border-radius: 10px;
     .footer-cont{
         max-width: 575px;
         margin: 0 auto;
-        padding: 0 30px 26px 32px;
+        padding: 24px 30px 26px 32px;
         display: flex;
         gap: 104px;
     }
@@ -928,6 +925,7 @@ border-radius: 10px;
         line-height: 45px;
         width: 217px;
         margin: 0;
+        margin-right: 0;
     }
     .hero-h1::after{
         display: block;
@@ -955,7 +953,6 @@ border-radius: 10px;
     .skills-cont{
         max-width: 768px;
         margin: 0 auto;
-        margin-bottom: 30px;
     }
     .skills-li-cont{
         
@@ -995,7 +992,7 @@ border-radius: 10px;
         display: grid;
         gap: 10px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 441px 241px;
+        grid-template-rows: 441px 210px;
     }
     .grid_item_1{
         height: 662px;
@@ -1097,12 +1094,13 @@ border-radius: 10px;
     .pricing-cont{
         max-width: 768px;
         margin: 0 auto;
-        padding: 0 30px;
+        padding: 0 30px 50px;
     }
     .pricing-li{
 
     }
     .pricing-ul-item{
+        margin-top: 0;
 
     }
     .pricing-h2{
@@ -1153,7 +1151,7 @@ border-radius: 10px;
 .contact-cont {
     max-width: 768px;
     margin: 0px auto;
-    margin-top: 150px;
+    padding: 65px 39px 130px 39px;
     display: flex;
     justify-content: space-between;
 
@@ -1213,7 +1211,7 @@ border-radius: 10px;
     .footer-cont{
         max-width: 768px;
         margin: 0 auto;
-        padding: 0 30px 15px 38px;
+        padding: 18px 30px 15px 38px;
         gap: 261px;
     }
     .footer-nav-item{
@@ -1331,7 +1329,7 @@ border-radius: 10px;
         display: grid;
         gap: 13px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 441px 302px;
+        grid-template-rows: 441px 241px;
     }
     .grid_item_1{
         height: 696px;
@@ -1364,9 +1362,8 @@ border-radius: 10px;
         .about-cont {
             max-width: 992px;
             margin: 0 auto;
-            padding: 200px 31px 0 31px;
+            padding: 200px 31px 125px 31px;
             position: relative;
-            margin-bottom: 125px;
         }
         .about-h2 {
             position: absolute;
@@ -1406,7 +1403,7 @@ border-radius: 10px;
 
         max-width: 992px;
         margin: 0 auto;
-        padding: 0 31px ;
+        padding: 0 31px 45px;
 
     }
     .pricing-h2{
@@ -1502,7 +1499,7 @@ border-radius: 10px;
     .footer-cont{
         max-width: 992px;
         margin: 0 auto;
-        margin-bottom: 24px;
+        padding: 24px 30px;
         gap: 422px;
     }
     .footer-nav-item{
@@ -1634,7 +1631,7 @@ border-radius: 10px;
         display: grid;
         gap: 30px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 579px 426px;
+        grid-template-rows: 579px 338px;
         position: relative;
     }
     
@@ -1679,7 +1676,7 @@ border-radius: 10px;
         .about-cont {
             max-width: 1600px;
             margin: 0 auto;
-            padding: 180px 132px 0 132px ;
+            padding: 312px 132px 0 132px ;
             position: relative;
         }
         .about-h2 {
@@ -1687,7 +1684,7 @@ border-radius: 10px;
             font-size: 48px;
             line-height: 72px;
             left: 132px;
-            top: 80px;
+            top: 250px;
         }
         .about-svg {
             display: block;
@@ -1723,7 +1720,7 @@ border-radius: 10px;
     .pricing-cont{
         max-width: 1600px;
         margin: 0 auto;
-        padding: 200px 131px 0 131px;
+        padding: 200px 131px 50px 131px;
 
 
     }
@@ -1767,7 +1764,7 @@ border-radius: 10px;
 .contact-cont {
     max-width: 1600px;
     margin: 0px auto;
-    padding: 180px 131px 150px 131px;
+    padding: 180px 131px 50px 131px;
 
 }
 .contact-text{
@@ -1815,7 +1812,7 @@ border-radius: 10px;
     .footer-cont{
         max-width: 1600px;
         margin: 0 auto;
-        padding: 0 132px 77px 131px;
+        padding: 22px 132px 77px 131px;
         display: flex;
         gap: 463px;
     }
