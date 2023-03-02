@@ -614,7 +614,7 @@ border-radius: 10px;
         font-size: 16px;
         line-height: 24px;
         width: 486px;
-        margin: 26px auto 61px;
+        margin: 26px auto 37px;
     }
     .hero-btn{
         font-size: 18px;
@@ -624,6 +624,9 @@ border-radius: 10px;
     }
 
 /* skills */
+    .skills{
+        padding-bottom: 0;
+    }
     .skills-cont{
         max-width: 575px;
         margin: 0 auto;
@@ -695,7 +698,7 @@ border-radius: 10px;
     .about-cont {
         max-width: 575px;
         margin: 0 auto;
-        padding: 84px 30px 30px;
+        padding: 0px 30px;
     }
     .about-h2 {
         font-size: 30px;
@@ -1256,6 +1259,9 @@ border-radius: 10px;
     }
     .nav-btn{
         display: flex;
+        border-radius: 5px;
+        padding: 0;
+        padding:11px 0 11px 40px;
     }
         /* hero */
     .hero-cont{
@@ -1370,7 +1376,9 @@ border-radius: 10px;
         .about-h2 {
             position: absolute;
             left: 31px;
-            top: 100px;
+            top: 150px;
+            font-size: 36px;
+            line-height: 80px;
         }
         .about-svg {
             margin: 0;
@@ -1391,7 +1399,7 @@ border-radius: 10px;
         .about-ul-item {
         }
         .about-ul-item h4{
-            font-size: 22px;
+            font-size: 30px;
             line-height: 80px;
         }
         .about-ul-item p{
@@ -1579,10 +1587,12 @@ border-radius: 10px;
         margin: 40px 0 83px 0;
     }
     .hero-btn{
+        width: 426px;
         font-size: 36px;
         line-height: 54px;
         padding: 23px 103px;
         margin: 0;
+        border-radius: 10px;
         
     }
 
@@ -1624,6 +1634,7 @@ border-radius: 10px;
         padding: 15px 51px  15px 52px ;
         font-size: 18px;
         line-height: 27px;
+        border-radius: 10px;
     }
     .text-4{
         padding-top: 32px;
