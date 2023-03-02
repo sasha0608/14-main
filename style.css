@@ -330,6 +330,7 @@ border-radius: 10px;
     line-height: 20px;
     text-align: center;
     color: #8F95A5;
+    
 }
 .about-ul {
     text-align: center;
@@ -540,6 +541,7 @@ border-radius: 10px;
 }
 .footer-nav-item_aft::after{
     content: '';
+    border-radius: 50%;
     width: 3px;
     height: 3px;
     background-color: #8F95A5;
